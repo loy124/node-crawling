@@ -1,0 +1,19 @@
+{
+  "name": "lecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "lee on you",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "csv-parse": "^4.12.0",
+    "csv-stringify": "^5.5.1",
+    "puppeteer": "^5.2.1",
+    "xlsx": "^0.16.6"
+  }
+}
