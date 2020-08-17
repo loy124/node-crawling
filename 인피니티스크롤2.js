@@ -12,7 +12,7 @@ fs.readdir('imgs', (err) => {
 const crawler = async () => {
   try {
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
     });
     const page = await browser.newPage();
     await page.goto("https://unsplash.com");
