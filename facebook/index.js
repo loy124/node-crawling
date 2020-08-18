@@ -113,7 +113,7 @@ const crawler = async () => {
         });
       })
     );
-    
+
     await page.close();
     await browser.close();
     await db.sequelize.close();
