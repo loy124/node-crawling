@@ -98,7 +98,7 @@ const crawler = async() => {
 
         // 로그아웃
         await page.click("#userNavigationLabel");
-        await page.waitFor(1000);
+        await page.waitFor(1000); 
         await page.click("li.navSubmenu:last-child");
         
         

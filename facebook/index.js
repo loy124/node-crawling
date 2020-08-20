@@ -11,6 +11,7 @@ const crawler = async () => {
     const browser = await puppeteer.launch({
       headless: false,
       args: ["--window-size=1920,1080", "--disable-notifications"],
+      // userDataDir: "C:UsersdhsdbAppDataLocalGoogleChromeUser Data",
     });
     const page = await browser.newPage();
     await page.setUserAgent(
